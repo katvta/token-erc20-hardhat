@@ -1,5 +1,5 @@
 
-## K3Ltoken - ERC20 Token Project
+## K3Ltoken - ERC20 Token
 
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
 ![Hardhat](https://img.shields.io/badge/Hardhat-181A1F?style=for-the-badge&logo=hardhat&logoColor=white)
@@ -116,12 +116,6 @@ describe("K3Ltoken", function () {
 ```bash
 npx hardhat run scripts/deploy.js --network <network_name>
 ```
-
-## 📄 Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
 
 **Desenvolvido por Katriel Amorim**  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/katriel-amorim-a330b4322/)
