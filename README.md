@@ -16,8 +16,8 @@ Um contrato inteligente ERC20 implementado com Hardhat para criação e teste de
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/katvta/K3Ltoken.git
-cd K3Ltoken
+git clone https://github.com/katvta/token-erc20-hardhat.git
+cd token-erc20-hardhat
 ```
 
 2. Instale as dependências:
@@ -28,13 +28,13 @@ npm install
 ## 📂 Estrutura do Projeto
 
 ```
-K3Ltoken/
+token-erc20-hardhat/
 ├── contracts/              # Contratos inteligentes
-│   └── K3Ltoken.sol        # Implementação do token ERC20
+│   └── k3ltoken.sol        # Implementação do token ERC20
 ├── scripts/                # Scripts de automação
 │   └── deploy.js           # Script para deploy do contrato
 ├── test/                   # Testes
-│   └── K3Ltoken.test.js    # Testes unitários
+│   └── k3ltoken.test.js    # Testes unitários
 ├── hardhat.config.js       # Configuração do Hardhat
 └── package.json            # Dependências do projeto
 ```
